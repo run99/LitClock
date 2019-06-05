@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@mipmap/haikei"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageViewHourTen"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/zero" />
+
+    <ImageView
+        android:id="@+id/imageViewHourOne"
+        android:layout_width="70dp"
+        android:layout_height="130dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="70dp" android:scaleType="fitCenter"
+        android:src="@mipmap/zero" android:layout_marginTop="0dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewColon1"
+        android:layout_width="70dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="140dp" android:scaleType="fitCenter"
+        android:src="@mipmap/colon" android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewMinuteTen"
+        android:layout_width="70dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="210dp"
+        android:scaleType="fitCenter" android:src="@mipmap/zero"
+        android:layout_alignParentTop="true" android:layout_marginTop="0dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewMinuteOne"
+        android:layout_width="70dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="false"
+        android:layout_marginLeft="280dp"
+        android:scaleType="fitCenter" android:src="@mipmap/zero"
+        android:layout_alignParentTop="true" android:layout_marginTop="0dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewColon2"
+        android:layout_width="70dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="350dp" android:scaleType="fitCenter"
+        android:src="@mipmap/colon" android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewSecondTen"
+        android:layout_width="70dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="420dp" android:scaleType="fitCenter"
+        android:src="@mipmap/zero" android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewSecondOne"
+        android:layout_width="70dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_marginLeft="490dp" android:scaleType="fitCenter"
+        android:src="@mipmap/zero" android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:text="Lit Clock!" android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff" android:textSize="60dp" android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
